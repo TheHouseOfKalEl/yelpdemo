@@ -53,4 +53,6 @@ group :production do
   gem 'pg' 
 end
 
+gem 'carrierwave'
+
 ruby '2.2.1'
