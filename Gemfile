@@ -43,3 +43,5 @@ group :development, :test do
   gem 'spring'
 end
 
+#  Use Heroku for static asset serving and logging
+gem 'rails_12factor', group: :production
