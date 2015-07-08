@@ -27,6 +27,7 @@ end
 gem "fog" # uses Amazon S3 for file storage
 gem 'carrierwave-aws' # helps upload files
 gem 'figaro' #helps hide credentials from github
+gem "mini_magick" #allows us access to imagemagick, so that we can resize images
 
 ruby '2.2.1'
 
